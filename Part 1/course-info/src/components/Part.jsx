@@ -1,6 +1,7 @@
-
-export function Part({part, exercise}) {
-  return (
-    <p>{part} {exercise}</p>
-  )
+export function Part({ part }) {
+	return (
+		<p>
+			{part.name} {part.exercises}
+		</p>
+	);
 }
